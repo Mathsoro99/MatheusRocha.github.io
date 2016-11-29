@@ -1,5 +1,6 @@
 body{
-	background: black;
+	font-size: 16px;
+    background: black;
     margin-top: auto;
     margin-left: 10%;
     margin-right: 10%;
@@ -7,6 +8,9 @@ body{
     font-family: Open sans;
     color: white;
 }
+
+
+/*---------- Cabeçalho -----------*/
 
 #header {
     width: 50%;
@@ -45,15 +49,20 @@ a[href] {
     vertical-align: middle;
     padding-left: 20px;
     width: 25px;
+    height: 25px;
 }
+
+
+/*---------- Main --------------*/
 
 #Inicio{
     display: inline-block;
     width: 100%;
+    font-size: 0;
 }
 
 h1{
-    font-size: 700%;
+    font-size: 7rem;
     clear: both;
     color: white;
     font-weight: lighter;
@@ -68,19 +77,70 @@ h1{
 h1 strong{
     display: block;
 }
-    
-#ScrollDown{
-    display: block;
+
+main{
     text-align: center;
 }
 
+.Inicio-Left{
+    display: inline-block;
+    width: 60%
+}
+
+.Inicio-Right{
+    display: inline-block;
+    width: 40%;
+}
+
+/*.item-grid{
+    display: inline-block;
+    width: 40%;
+    min-width: 300px;
+    height: 70%;
+    min-height: 300px;
+    vertical-align: middle;
+    float: left;
+
+}
+
+.item-grid-skills{
+    display: inline-block;
+    float: left;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.item img {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.item-grid-imagem {
+    /*---background-image: url(../imagens/eu.png);
+    background-size: contain;
+    background-repeat: no-repeat;----
+    vertical-align: center;
+    width: 60%;
+    display: inline-block;
+    
+}
+*/
+
+#ScrollDown{
+    display: inline-block;
+    text-align: center;
+}
+
+
 /*----------------------------------------------------*/
 
+
 .Hover{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    display: inline-block;
+width: 300px;
+height: 300px;
+position: relative;
+display: inline-block;
 }
 
 .Alinhamento{
@@ -103,30 +163,18 @@ h1 strong{
     opacity: 1;
 }
 
+/*------------ Rodape --------------*/
 
-main{
-    text-align: center;
-}
-
-.item-grid{
+.Rodape-left{
     display: inline-block;
-    width: 40%;
-    min-width: 300px;
-    height: 70%;
-    min-height: 300px;
-    vertical-align: middle;
-
-}
-
-.item img {
-    display: inline-block;
-    width: 50%;
-    height: 50%;
     float: left;
+    margin-left: 0px;
 }
-.item-grid.imagem {
-    background-image: url(../imagens/eu.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+.Rodape-Middle{
+    display: inline-block;
+    vertical-align: center;
+}
+.Rodape-Right{
+    display: inline-block;
+    float: right;
 }
