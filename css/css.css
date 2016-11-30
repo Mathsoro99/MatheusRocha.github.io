@@ -9,22 +9,35 @@ body{
     color: white;
 }
 
+/*------Header-----*/
 
-/*---------- Cabeçalho -----------*/
+#Inicio{
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+}
 
-#header {
+.CABECALHO-FIXO{
+    display: inline-block;
+    height: 5%;
+    position: fixed;
+    background: black;
+
+}
+
+.header {
     width: 50%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     vertical-align: middle;
     display: inline-block;
     
 }
-#header li{
+.header li{
     display: inline;
     padding-right: 30px;
 }
 
-#header a {
+.header a {
     color: white;
     text-decoration: none;
 }
@@ -34,31 +47,31 @@ a[href] {
     text-decoration: none;
 }
 
-#header a:hover {
+.header a:hover {
     display: inline-block;
     text-decoration: underline;
 }
 
-#header2{
-    width: 20%;
+.header2{
+    display: inline-block;
+    width: 18%;
     float: right;
     text-align: right;
     margin-right: 10%;
 }
-#header2 img {
-    vertical-align: middle;
-    padding-left: 20px;
+
+.header2 a{
     width: 25px;
-    height: 25px;
+    padding-left: 20px;
 }
 
+.header2 img {
+    vertical-align: middle;
+}
+/*-----Contain------*/
 
-/*---------- Main --------------*/
-
-#Inicio{
-    display: inline-block;
-    width: 100%;
-    font-size: 0;
+main{
+    text-align: center;
 }
 
 h1{
@@ -77,71 +90,74 @@ h1{
 h1 strong{
     display: block;
 }
+    
 
-main{
-    text-align: center;
-}
-
-.Inicio-Left{
+.item-left{
     display: inline-block;
-    width: 60%
-}
-
-.Inicio-Right{
-    display: inline-block;
-    width: 40%;
-}
-
-/*.item-grid{
-    display: inline-block;
-    width: 40%;
-    min-width: 300px;
-    height: 70%;
-    min-height: 300px;
     vertical-align: middle;
     float: left;
-
-}
-
-.item-grid-skills{
-    display: inline-block;
-    float: left;
-    margin-bottom: 70px;
-    margin-top: 20px;
-}
-
-.item img {
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-    float: left;
-}
-.item-grid-imagem {
-    /*---background-image: url(../imagens/eu.png);
-    background-size: contain;
-    background-repeat: no-repeat;----
-    vertical-align: center;
     width: 60%;
-    display: inline-block;
-    
+    height: auto;
 }
-*/
+
+.item-right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: auto;
+}
+
+.item-name{
+    display: block;
+    float: left;
+}
+
+.item-skill{
+    display: inline-block;
+    float: left;
+    margin-top: 10%;
+}
+
+.item-skill img{
+    display: inline-block;
+    float: left;
+
+}
+
+.item-grid-imagem {
+    display: inline-block;
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
 
 #ScrollDown{
     display: inline-block;
     text-align: center;
+    clear: right;
+    margin-bottom: 40px;
+    margin-top: 0px;
 }
+/*---.item-grid img {
+    display: inline;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    float: right;
+}
+
+
+.item-grid.imagem {
+    background-image: url(../imagens/eu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    
+}*/
 
 
 /*----------------------------------------------------*/
-
-
-.Hover{
-width: 300px;
-height: 300px;
-position: relative;
-display: inline-block;
-}
 
 .Alinhamento{
     position: absolute;
@@ -159,22 +175,54 @@ display: inline-block;
     pointer-events: none;
 }
 
+.Hover{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+
 .Hover:hover .Alinhamento {
     opacity: 1;
 }
 
-/*------------ Rodape --------------*/
 
-.Rodape-left{
+
+/*----------------------------*/
+
+
+
+
+
+
+
+
+/*-----------Footer-----------*/
+#footer {
     display: inline-block;
-    float: left;
-    margin-left: 0px;
+    width: 50%;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    
 }
-.Rodape-Middle{
+
+.LogoRodape{
     display: inline-block;
-    vertical-align: center;
 }
-.Rodape-Right{
+
+.LogoRodape h1{
+    
+}
+
+.LogoRodape h1 strong{
+    display: block;
+}
+
+.LogoRodape2{
     display: inline-block;
-    float: right;
+}
+
+.LogoRodape3{
+    display: inline-block;
 }
