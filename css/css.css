@@ -120,7 +120,7 @@ h1 strong{
 .item-skill{
     display: inline-block;
     float: left;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .item-skill img{
@@ -134,7 +134,7 @@ h1 strong{
     float: right;
     width: 100%;
     height: auto;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #ScrollDown{
