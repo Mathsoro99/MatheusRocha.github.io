@@ -31,7 +31,7 @@ body{
 
 .header {
     width: 50%;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     vertical-align: middle;
     display: inline-block;
     
@@ -58,7 +58,7 @@ a[href] {
 
 .header2{
     display: inline-block;
-    width: 13rem;
+    width: 10rem;
     float: right;
     text-align: right;
     margin-right: 10%;
@@ -79,7 +79,7 @@ main{
 }
 
 h1{
-    font-size: 8rem;
+    font-size: 6rem;
     clear: both;
     color: white;
     font-weight: lighter;
@@ -87,7 +87,7 @@ h1{
     text-align: right;
     line-height: 80%;
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 10%;
     margin-bottom: 0%;
 }
 
@@ -112,20 +112,23 @@ h1 strong{
 }
 
 .item-name{
+    width: 100%;
+    height: auto;
     display: block;
     float: left;
 }
 
-
 .item-skill{
     display: inline-block;
     float: left;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .item-skill img{
     display: inline-block;
     float: left;
+    width: 40rem;
+    height: auto;
 
 }
 
@@ -134,7 +137,7 @@ h1 strong{
     float: right;
     width: 100%;
     height: auto;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 #ScrollDown{
@@ -188,7 +191,7 @@ h1 strong{
     display: inline-block;
     overflow: hidden;
     margin: 10px;
-     border-radius: 20px;
+    border-radius: 20px;
 }
 
 
@@ -212,6 +215,43 @@ h1 strong{
     height: 500px;
 }
 
+/*---------------------------*/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 
