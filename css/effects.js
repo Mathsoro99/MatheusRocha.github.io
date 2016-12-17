@@ -1,40 +1,31 @@
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            $("p").toggle();
+$(document).ready(function(){
+        $(".job1").click(function(){
+            $("#job1").slideToggle();     
+        });
+        $(".job2").click(function(){
+            $("#job2").slideToggle();
+        });
+        $(".job3").click(function(){
+            $("#job3").slideToggle();
+        });
+        $(".job4").click(function(){
+            $("#job4").slideToggle();
+        });
+        $(".job5").click(function(){
+            $("#job5").slideToggle();
+        });
+        $(".job6").click(function(){
+            $("#job6").slideToggle();
+        });
+        
+        $("#scrollPortfolio").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#Portfolio").offset().top
+            }, 600);
+        });
+        $("#scrollInicio").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#Inicio").offset().top
+            }, 600);
         });
     });
-</script>
-/*--    (function( $ ){
-
-      $.fn.fitText = function( kompressor, options ) {
-
-        // Setup options
-        var compressor = kompressor || 1,
-            settings = $.extend({
-              'minFontSize' : Number.NEGATIVE_INFINITY,
-              'maxFontSize' : Number.POSITIVE_INFINITY
-            }, options);
-
-        return this.each(function(){
-
-          // Store the object
-          var $this = $(this);
-
-          // Resizer() resizes items based on the object width divided by the compressor * 10
-          var resizer = function () {
-            $this.css('font-size', Math.max(Math.min($this.width() / (compressor*10), parseFloat(settings.maxFontSize)), parseFloat(settings.minFontSize)));
-          };
-
-          // Call once to set.
-          resizer();
-
-          // Call on resize. Opera debounces their resize by default.
-          $(window).on('resize.fittext orientationchange.fittext', resizer);
-
-        });
-
-      };
-
-    }) --*/
-    
