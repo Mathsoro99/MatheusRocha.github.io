@@ -1,4 +1,6 @@
 $(document).ready(function(){
+        alert("O site está em construção. Conclusão em 02/01/2017. Obrigado pela compreensão.");
+        
         $(".job1").click(function(){
             $("#job1").slideToggle();     
         });
