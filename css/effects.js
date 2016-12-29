@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-        alert("O site ainda está em construção. Conclusão em 02/01/2017.\nAlgumas das funções já estão ativas.\nVisite minha página nas rede sociais! :D \nObrigado pela compreensão.");
+        alert("O site ainda está em construção. \nAlgumas das funções já estão ativas.\nVisite minha página nas redes sociais! :D \nObrigado pela compreensão.");
         
         $(".job1").click(function(){
             $(".overlay").slideDown();
