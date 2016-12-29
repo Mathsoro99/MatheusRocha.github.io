@@ -8,6 +8,7 @@ body{
     color: white;
 }
 
+
 /*------Header-----*/
 
 #Inicio{
@@ -225,8 +226,8 @@ h1 strong{
 
 #port img{
     display: inline-block;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 350px;
 
 }
 
@@ -272,8 +273,6 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
     
 }
 #job2{
@@ -283,8 +282,6 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
     
 }
 #job3{
@@ -294,8 +291,7 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+
 }
 #job4{
     display:inline-block;
@@ -304,8 +300,7 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+
 }
 #job5{
     display:inline-block;
@@ -314,8 +309,6 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
 }
 #job6{
     display:inline-block;
@@ -324,8 +317,6 @@ h1 strong{
     top: 18%;
     width: 50%;
     height: 50%;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
 }
 
 .overlay{
@@ -431,7 +422,7 @@ footer {
 .LogoRodape{
     float: left;
     width: 15%;
-    padding-right: 6%;
+    padding-right: 4%;
 }
 
 .LogoRodape h1{
@@ -445,7 +436,7 @@ footer {
 .LogoRodape2{
     display: inline-block;
      font-size: 15px;
-     padding-right: 10%;
+     padding-right: 6%;
 }
 
 .LogoRodape3 {
